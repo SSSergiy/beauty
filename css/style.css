@@ -6,7 +6,9 @@
   border: 0;
   box-sizing: border-box;
 }
-
+ul,li{
+padding: 0;
+margin: 0;}
 html,
 body {
   height: 100%;
@@ -82,9 +84,7 @@ img {
 }
 
 /* --------------------------------header__logo----------------------------------------- */
-.header__logo {
-
-}
+.header__logo {}
 
 .links {
   min-height: 120px;
@@ -100,7 +100,7 @@ img {
   align-content: center;
 }
 
-.links__icon {
+.links__icons {
   float: left;
 }
 
@@ -440,8 +440,9 @@ img {
   margin: 0px 34px 0px 0px;
 
 }
-.popularr{
-margin: 0;
+
+.popularr {
+  margin: 0;
 }
 
 
@@ -459,12 +460,9 @@ margin: 0;
   line-height: 140.62%;
 }
 
-.popular__list {
+.popular__list {}
 
-}
-
-.popular__list-item {
-}
+.popular__list-item {}
 
 .popular__item-link {
   padding: 0px 0px 0px 0px;
@@ -473,4 +471,49 @@ margin: 0;
   font-size: 12px;
   line-height: 2.33;
   color: #828282;
+}
+
+/* ........................................ */
+.social__container {
+  border-top: 1px solid #EFEFEF;
+}
+
+.links {}
+
+.container {}
+
+.links__list {}
+
+.links__icons {}
+
+.links__social {
+  width: 45px;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: 2px solid #F13C6E;
+  float: left;
+  line-height: 45px;
+  margin: 15px 19px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  
+}
+
+.icon-yotube {
+  padding: 9px;
+}
+
+.icon-vkontakte {
+  padding: 9px;
+}
+
+.icon-facebook {
+  padding: 9px;
+  font-size: 17px;
+  
+}
+
+.icon-instagram {
+  padding: 9px;
+  font-size: 20px;
 }
