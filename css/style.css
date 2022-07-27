@@ -83,33 +83,35 @@ img {
 
 /* --------------------------------header__logo----------------------------------------- */
 .header__logo {
+
+}
+
+.links {
   min-height: 120px;
   padding: 20px 0px;
   background-color: #ffffff;
   overflow: hidden;
 }
 
-.logo {}
-
-.logo__list {
+.links__list {
   overflow: hidden;
   align-items: center;
   text-align: center;
   align-content: center;
 }
 
-.logo__icon {
+.links__icon {
   float: left;
 }
 
-.logo__buttons {
+.links__buttons {
   float: right;
   overflow: hidden;
   height: 80px;
   padding: 20px 0px 0px 0px;
 }
 
-.logo__btn-number {
+.links__btn-number {
   line-height: 1.18;
   font-weight: 400;
   font-size: 16px;
@@ -121,7 +123,7 @@ img {
 
 .logo__number-link {}
 
-.logo__btn-call {
+.links__btn-call {
   background: #FFFFFF;
   border: 2px solid #F13C6E;
   border-radius: 40px;
@@ -132,12 +134,12 @@ img {
   float: right;
 }
 
-.logo__call-link {
+.links__call-link {
   font-size: 14px;
   font-weight: 400;
 }
 
-/* --------------------------------header__logo----------------------------------------- */
+/* --------------------------------header__menu ----------------------------------------- */
 .header__menu {
   min-height: 79px;
   border-top: 1px solid #EFEFEF;
@@ -416,3 +418,59 @@ img {
 }
 
 .imppuls__img {}
+
+/* ..........................popular............ */
+.popular__block {
+  min-height: 372px;
+  background-color: #FFFFFF;
+}
+
+.popular {}
+
+.container {}
+
+.popular__content {
+  overflow: hidden;
+}
+
+
+.popular__item {
+  float: left;
+  width: 22.7%;
+  margin: 0px 34px 0px 0px;
+
+}
+.popularr{
+margin: 0;
+}
+
+
+.popular__title {
+
+  border-bottom: 1px solid #EFEFEF;
+  padding: 58px 149px 25px 0px;
+  margin: 0px 0px 25px 0px;
+}
+
+.popular__title a {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+}
+
+.popular__list {
+
+}
+
+.popular__list-item {
+}
+
+.popular__item-link {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.33;
+  color: #828282;
+}
