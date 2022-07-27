@@ -22,7 +22,6 @@ body {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
-
 .main {}
 
 .wrapper {
@@ -46,6 +45,8 @@ a {
 
 img {
   vertical-align: top;
+  width: 100%;
+  height: auto;
 }
 
 /*-------------------------------------header__nav----------------------------------------*/
@@ -90,7 +91,6 @@ img {
 
 .logo {}
 
-
 .logo__list {
   overflow: hidden;
   align-items: center;
@@ -107,7 +107,6 @@ img {
   overflow: hidden;
   height: 80px;
   padding: 20px 0px 0px 0px;
-
 }
 
 .logo__btn-number {
@@ -118,7 +117,6 @@ img {
   font-weight: 400;
   float: left;
   padding: 9px 42px;
-
 }
 
 .logo__number-link {}
@@ -137,7 +135,6 @@ img {
 .logo__call-link {
   font-size: 14px;
   font-weight: 400;
-
 }
 
 /* --------------------------------header__logo----------------------------------------- */
@@ -158,7 +155,6 @@ img {
 
 .menu__items {
   overflow: hidden;
-
 }
 
 .menu__item:not(:last-child) {
@@ -174,9 +170,8 @@ img {
   padding: 20px 0;
 }
 
-/* -------------------------------- */
+/* ----------------.............super............---------------- */
 .main__super {
-
   min-height: 604px;
   background: url(../img/super/supper.jpg);
 }
@@ -224,15 +219,11 @@ img {
 }
 
 /* -----------------------------special--------------------------- */
-
 .special__block {
   min-height: 610px;
-
 }
 
-.special {
-  margin: 0px 0px 80px 0px;
-}
+.special {}
 
 .special__container {}
 
@@ -247,7 +238,6 @@ img {
   color: #000000;
   margin: 0px 0px 39px 0px;
   letter-spacing: -0.7px;
-
 }
 
 .block__cards {
@@ -265,7 +255,6 @@ img {
   align-content: center;
   height: 363px;
   margin: 0px 0px 0px 0px;
-
 }
 
 .card__container:not(:last-child) {
@@ -297,7 +286,6 @@ img {
   color: #000000;
   margin: 0px 0px 16px 0px;
   display: inline-block;
-
 }
 
 .card__container-btn {
@@ -317,3 +305,114 @@ img {
   color: #FFFFFF;
   padding: 9px 41px;
 }
+
+/* -----------BOnuS--------- */
+.bonus__block {
+  margin: 0px 0px 100px 0px;
+}
+
+.bonus {}
+
+.bonus__content-block {
+  overflow: hidden;
+}
+
+.block {
+  margin-right: 30px;
+}
+
+.bonus__item-block {
+  background: #F13C6E;
+  padding: 35px 40px 35px 40px;
+  width: 48.6%;
+  float: left;
+}
+
+.bonus__item-info {
+  max-width: 60%;
+  float: left;
+}
+
+.bonus__item-img {
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.bonus__item-img img {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.bonus__info-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #FFFFFF;
+  margin: 0px 0px 19px 0px;
+  letter-spacing: -0.5px;
+}
+
+.bonus__info-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #FFFFFF;
+  margin: 0px 0px 25px 0px;
+  letter-spacing: 0.2px;
+}
+
+.bonus__info-input {
+  background: #FFFFFF;
+  border-radius: 30px;
+  width: 225px;
+  min-height: 35px;
+  padding: 0px 0px 0px 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #C4C4C4;
+}
+
+.bonus__info-btn {
+  background: #F13C6E;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 8px 29px 8px 29px;
+}
+
+.bonus__btn-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  padding: 7px 0;
+}
+
+/* ...............................imppuls................................ */
+.impuls__block {}
+
+.imppuls {}
+
+.imppuls__container {
+  overflow: hidden;
+}
+
+.imppuls__item {
+  width: 25%;
+  background: #FFFFFF;
+  float: left;
+  border: 1px solid #EFEFEF;
+  height: 119px;
+  text-align: center;
+}
+
+.imppuls__link {
+  display: inline-block;
+  padding: 31px 8px 30px 5px;
+}
+
+.imppuls__img {}
