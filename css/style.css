@@ -6,18 +6,21 @@
   border: 0;
   box-sizing: border-box;
 }
-ul,li{
-padding: 0;
-margin: 0;}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
 html,
 body {
   height: 100%;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 body {
   background: #efefef;
+  color: #000000;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -37,12 +40,9 @@ body {
   padding: 0 15px;
 }
 
-.main {}
-
-.none {}
-
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -79,7 +79,6 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14px;
-  color: #333333;
   letter-spacing: 0.06px;
 }
 
@@ -91,6 +90,7 @@ img {
   padding: 20px 0px;
   background-color: #ffffff;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .links__list {
@@ -108,15 +108,11 @@ img {
   float: right;
   overflow: hidden;
   height: 80px;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px;
 }
 
 .links__btn-number {
   line-height: 1.18;
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
-  font-weight: 400;
   float: left;
   padding: 9px 42px;
 }
@@ -124,7 +120,6 @@ img {
 .logo__number-link {}
 
 .links__btn-call {
-  background: #FFFFFF;
   border: 2px solid #F13C6E;
   border-radius: 40px;
   max-width: 170px;
@@ -136,7 +131,6 @@ img {
 
 .links__call-link {
   font-size: 14px;
-  font-weight: 400;
 }
 
 /* --------------------------------header__menu ----------------------------------------- */
@@ -145,6 +139,7 @@ img {
   border-top: 1px solid #EFEFEF;
   background: #FFFFFF;
   padding: 28px 0px;
+  font-weight: 400;
 
 }
 
@@ -165,15 +160,13 @@ img {
 }
 
 .menu__link {
-  font-size: 16px;
   line-height: 1.18;
-  color: #000000;
-  font-weight: 400;
   padding: 20px 0;
 }
 
 /* ----------------.............super............---------------- */
 .main__super {
+  color: #FFFFFF;
   min-height: 604px;
   background: url(../img/super/supper.jpg);
 }
@@ -188,7 +181,6 @@ img {
   font-weight: 700;
   font-size: 48px;
   line-height: 1.16;
-  color: #FFFFFF;
   letter-spacing: -1.3px;
   margin: 0px 0px 40px 0px;
 }
@@ -197,7 +189,6 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.44;
-  color: #FFFFFF;
   letter-spacing: 0.2px;
   margin-bottom: 43px;
 }
@@ -209,14 +200,14 @@ img {
   border: 2px solid #FFFFFF;
   border-radius: 40px;
   padding: 10px 40px 10px 8px;
-}
-
-.super__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+}
+
+.super__link {
+  letter-spacing: 0.05em;
   padding: 10px 35px;
 }
 
@@ -225,9 +216,6 @@ img {
   min-height: 610px;
 }
 
-.special {}
-
-.special__container {}
 
 .container__cards {
   padding: 80px 0;
@@ -237,7 +225,6 @@ img {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
-  color: #000000;
   margin: 0px 0px 39px 0px;
   letter-spacing: -0.7px;
 }
@@ -250,17 +237,15 @@ img {
 
 .card__container {
   background: #FFFFFF;
-  padding: 25px 35px 25px 35px;
+  padding: 25px 35px;
   float: left;
   width: 22.97%;
   text-align: center;
   align-content: center;
   height: 363px;
-  margin: 0px 0px 0px 0px;
 }
 
 .card__container:not(:last-child) {
-
   margin-right: 30px;
 }
 
@@ -276,16 +261,15 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.42;
-  color: #333333;
   margin: 0px 0px 13px 0px;
+  letter-spacing: 0.01em;
+
 }
 
 .card__container-price {
-  font-weight: 500;
   font-size: 21px;
   line-height: 1.19;
-  letter-spacing: 0.05em;
-  color: #000000;
+  letter-spacing: 0.07em;
   margin: 0px 0px 16px 0px;
   display: inline-block;
 }
@@ -296,21 +280,22 @@ img {
   background: #F13C6E;
   border-radius: 30px;
   display: inline-block;
-  padding: 8px 0px 8px 0px;
+  padding: 8px 0px;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  line-height: 1.14;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .card__btn-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
   padding: 9px 41px;
 }
 
 /* -----------BOnuS--------- */
 .bonus__block {
   margin: 0px 0px 100px 0px;
+  color: #FFFFFF;
 }
 
 .bonus {}
@@ -337,21 +322,17 @@ img {
 
 .bonus__item-img {
   float: right;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
 }
 
 .bonus__item-img img {
   width: 100%;
   padding: 20px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
 }
 
 .bonus__info-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
-  color: #FFFFFF;
   margin: 0px 0px 19px 0px;
   letter-spacing: -0.5px;
 }
@@ -360,13 +341,11 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.42;
-  color: #FFFFFF;
   margin: 0px 0px 25px 0px;
   letter-spacing: 0.2px;
 }
 
 .bonus__info-input {
-  background: #FFFFFF;
   border-radius: 30px;
   width: 225px;
   min-height: 35px;
@@ -389,7 +368,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-  color: #FFFFFF;
   letter-spacing: 0.2px;
   padding: 7px 0;
 }
@@ -438,7 +416,6 @@ img {
   float: left;
   width: 22.7%;
   margin: 0px 34px 0px 0px;
-
 }
 
 .popularr {
@@ -447,17 +424,15 @@ img {
 
 
 .popular__title {
-
   border-bottom: 1px solid #EFEFEF;
   padding: 58px 149px 25px 0px;
   margin: 0px 0px 25px 0px;
 }
 
 .popular__title a {
-  color: #000000;
-  font-weight: 500;
-  font-size: 16px;
   line-height: 140.62%;
+letter-spacing: 0.01em;
+font-weight: 600;
 }
 
 .popular__list {}
@@ -465,15 +440,12 @@ img {
 .popular__list-item {}
 
 .popular__item-link {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2.33;
   color: #828282;
 }
 
-/* ........................................ */
+/* .............................social__container........... */
 .social__container {
   border-top: 1px solid #EFEFEF;
 }
@@ -489,14 +461,11 @@ img {
 .links__social {
   width: 45px;
   height: 45px;
-  background: #FFFFFF;
   border-radius: 50%;
   border: 2px solid #F13C6E;
   float: left;
   line-height: 45px;
   margin: 15px 19px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  
 }
 
 .icon-yotube {
@@ -510,10 +479,36 @@ img {
 .icon-facebook {
   padding: 9px;
   font-size: 17px;
-  
 }
 
 .icon-instagram {
   padding: 9px;
   font-size: 20px;
+}
+
+/* ................................footer...------------------------ */
+.footer {
+  font-weight: 400;
+  color: #828282;
+}
+
+.footer__content {
+  overflow: hidden;
+}
+
+.footer__item-right {
+  float: right;
+  padding: 19px 0px;
+}
+
+.footer__item-left {
+  float: left;
+  padding: 19px 0px;
+}
+
+.footer__item-link {
+  line-height: 1.16;
+  padding: 19px 0px;
+  letter-spacing: 0.14px;
+  font-size: 12px;
 }
