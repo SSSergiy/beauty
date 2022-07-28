@@ -1,3 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?mipliw');
+  src: url('../fonts/icomoon.eot?mipliw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mipliw') format('truetype'),
+    url('../fonts/icomoon.woff?mipliw') format('woff'),
+    url('../fonts/icomoon.svg?mipliw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+  color: #f13c6e;
+}
+
+.icon-instagram:before {
+  content: "\e901";
+  color: #f13c6e;
+}
+
+.icon-vkontakte:before {
+  content: "\e902";
+  color: #f13c6e;
+}
+
+.icon-yotube:before {
+  content: "\e903";
+  color: #f13c6e;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -11,6 +83,7 @@ ul,
 li {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 html,
@@ -46,16 +119,12 @@ a {
 }
 
 img {
-  vertical-align: top;
+  vertical-align: middle;
   width: 100%;
   height: auto;
 }
 
 /*-------------------------------------header__nav----------------------------------------*/
-.container__top {
-  width: 477px;
-  margin: 0 auto;
-}
 
 .header__nav {
   background: #efefef;
@@ -65,13 +134,15 @@ img {
 .nav {}
 
 .nav__list {
-  padding: 15px 0 0 0;
+  margin-left: 720px;
+  overflow: hidden;
+  margin-right: 720px;
 }
 
 .nav__item {
   float: left;
-  overflow: hidden;
   text-align: center;
+  padding: 15px 0;
 }
 
 .nav__link {
@@ -90,7 +161,6 @@ img {
   padding: 20px 0px;
   background-color: #ffffff;
   overflow: hidden;
-  font-weight: 400;
 }
 
 .links__list {
@@ -114,10 +184,12 @@ img {
 .links__btn-number {
   line-height: 1.18;
   float: left;
-  padding: 9px 42px;
+  padding: 9px 39px;
 }
 
-.logo__number-link {}
+.logo__number-link {
+  font-weight: 400;
+}
 
 .links__btn-call {
   border: 2px solid #F13C6E;
@@ -131,6 +203,7 @@ img {
 
 .links__call-link {
   font-size: 14px;
+  font-weight: 400;
 }
 
 /* --------------------------------header__menu ----------------------------------------- */
@@ -151,12 +224,14 @@ img {
 }
 
 .menu__items {
+  margin-left: 624px;
   overflow: hidden;
+  margin-right: 613px;
 }
 
 .menu__item:not(:last-child) {
   float: left;
-  margin: 0px 44px 0px 0px;
+  margin: 0px 43px 0px 0px;
 }
 
 .menu__link {
@@ -168,7 +243,7 @@ img {
 .main__super {
   color: #FFFFFF;
   min-height: 604px;
-  background: url(../img/super/supper.jpg);
+  background: url(../img/super/supper.jpg) no-repeat;
 }
 
 .super {}
@@ -242,7 +317,7 @@ img {
   width: 22.97%;
   text-align: center;
   align-content: center;
-  height: 363px;
+  height: 100%;
 }
 
 .card__container:not(:last-child) {
@@ -292,7 +367,7 @@ img {
   padding: 9px 41px;
 }
 
-/* -----------BOnuS--------- */
+/* ---------------------------------------BOnuS--------- */
 .bonus__block {
   margin: 0px 0px 100px 0px;
   color: #FFFFFF;
@@ -313,6 +388,7 @@ img {
   padding: 35px 40px 35px 40px;
   width: 48.6%;
   float: left;
+  height: 212px;
 }
 
 .bonus__item-info {
@@ -425,14 +501,16 @@ img {
 
 .popular__title {
   border-bottom: 1px solid #EFEFEF;
-  padding: 58px 149px 25px 0px;
+  padding: 60px 149px 23px 0px;
   margin: 0px 0px 25px 0px;
+
 }
 
 .popular__title a {
-  line-height: 140.62%;
-letter-spacing: 0.01em;
-font-weight: 600;
+  line-height: 144%;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+
 }
 
 .popular__list {}
