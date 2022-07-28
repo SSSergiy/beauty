@@ -100,7 +100,8 @@ body {
   font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
-.main {}
+.main {
+overflow: hidden;}
 
 .wrapper {
   min-height: 100%;
@@ -388,7 +389,7 @@ img {
   padding: 35px 40px 35px 40px;
   width: 48.6%;
   float: left;
-  height: 212px;
+  height: 100%;
 }
 
 .bonus__item-info {
@@ -417,11 +418,12 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.42;
-  margin: 0px 0px 25px 0px;
+  margin: 0px 0px 27px 0px;
   letter-spacing: 0.2px;
 }
 
 .bonus__info-input {
+  border: 0;
   border-radius: 30px;
   width: 225px;
   min-height: 35px;
@@ -429,14 +431,14 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  color: #C4C4C4;
+  color: black;
 }
 
 .bonus__info-btn {
   background: #F13C6E;
   border: 2px solid #FFFFFF;
   border-radius: 30px;
-  padding: 8px 29px 8px 29px;
+  padding: 4px 29px 8px 29px;
 }
 
 .bonus__btn-link {
