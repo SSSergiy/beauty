@@ -119,12 +119,11 @@ img {
 
 /*-------------------------------------header__nav----------------------------------------*/
 
-.header__nav {
+.nav {
   background: #efefef;
   min-height: 50px;
 }
 
-.nav {}
 
 .nav__list {
   margin-left: 316px;
@@ -146,8 +145,7 @@ img {
   letter-spacing: 0.06px;
 }
 
-/* --------------------------------header__logo----------------------------------------- */
-.header__logo {}
+/* --------------------------------links----------------------------------------- */
 
 .links {
   min-height: 120px;
@@ -200,7 +198,7 @@ img {
 }
 
 /* --------------------------------header__menu ----------------------------------------- */
-.header__menu {
+.menu {
   min-height: 79px;
   border-top: 1px solid #EFEFEF;
   background: #FFFFFF;
@@ -210,12 +208,6 @@ img {
 }
 
 .menu {}
-
-.container__menu {
-  width: 680px;
-  margin: 0 auto;
-}
-
 .menu__items {
   margin-left: 218px;
   overflow: hidden;
@@ -233,7 +225,7 @@ img {
 }
 
 /* ----------------.............super............---------------- */
-.main__super {
+.super {
   color: #FFFFFF;
   min-height: 604px;
   background: url(../img/super/supper.jpg) 0 0/cover no-repeat;
@@ -280,16 +272,16 @@ img {
 }
 
 /* -----------------------------special--------------------------- */
-.special__block {
+.special {
   min-height: 610px;
 }
 
 
-.container__cards {
+.container-cards {
   padding: 80px 0;
 }
 
-.container__cards-title {
+.container-cards-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
@@ -297,7 +289,7 @@ img {
   letter-spacing: -0.7px;
 }
 
-.block__cards {
+.container-cards__block-cards {
   overflow: hidden;
 }
 
@@ -361,18 +353,17 @@ img {
 }
 
 /* ---------------------------------------BOnuS--------- */
-.bonus__block {
-  margin: 0px 0px 100px 0px;
-  color: #FFFFFF;
-}
 
-.bonus {}
+
+.bonus {
+  margin: 0px 0px 100px 0px;
+  color: #FFFFFF;}
 
 .bonus__content-block {
   overflow: hidden;
 }
 
-.block {
+.bonus__item-block--right {
   margin-right: 30px;
 }
 
@@ -443,7 +434,6 @@ img {
 }
 
 /* ...............................imppuls................................ */
-.impuls__block {}
 
 .imppuls {}
 
@@ -462,27 +452,25 @@ img {
 
 .imppuls__link {
   display: inline-block;
-  padding: 31px 8px 30px 5px;
+  padding: 35px 53px 28px 51px;
 }
 
 .imppuls__img {}
 
 /* ..........................popular............ */
-.popular__block {
+.popular{
   min-height: 372px;
   background-color: #FFFFFF;
 }
 
-.popular {}
-
 .container {}
 
-.popular__content {
+.popular-content {
   overflow: hidden;
 }
 
 
-.popular__item {
+.popular-content__item {
   float: left;
   width: 22.7%;
   margin: 0px 34px 0px 0px;
@@ -493,14 +481,14 @@ img {
 }
 
 
-.popular__title {
+.popular-content__title {
   border-bottom: 1px solid #EFEFEF;
   padding: 60px 149px 23px 0px;
   margin: 0px 0px 25px 0px;
 
 }
 
-.popular__title a {
+.popular-content__title a {
   line-height: 144%;
   font-weight: 600;
   letter-spacing: -0.4px;
@@ -511,7 +499,7 @@ img {
 
 .popular__list-item {}
 
-.popular__item-link {
+.popular-content__item-link {
   font-size: 12px;
   line-height: 2.33;
   color: #828282;
@@ -564,21 +552,21 @@ img {
   color: #828282;
 }
 
-.footer__content {
+.footer-content {
   overflow: hidden;
 }
 
-.footer__item-right {
+.footer-content__item-right {
   float: right;
   padding: 19px 0px;
 }
 
-.footer__item-left {
+.footer-content__item-left {
   float: left;
   padding: 19px 0px;
 }
 
-.footer__item-link {
+.footer-content__item-link {
   line-height: 1.16;
   padding: 19px 0px;
   letter-spacing: 0.14px;
